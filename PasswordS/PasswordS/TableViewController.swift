@@ -7,6 +7,18 @@
 
 import UIKit
 
+class TableTagcell : UITableViewCell {
+    @IBOutlet weak var labelcontent: UILabel!
+    var tagall = [String]()
+
+    
+}
+class Tabledetailcell : UITableViewCell {
+   
+    @IBOutlet weak var detailcontent: UILabel!
+    var detail = [String]()
+
+}
 class TableViewController: UIViewController {
 
     override func viewDidLoad() {
