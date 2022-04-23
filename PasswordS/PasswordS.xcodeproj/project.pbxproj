@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B74F6CB281480FD008A6885 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B74F6CA281480FD008A6885 /* GoogleService-Info.plist */; };
 		F3C5252528146CB300DC8A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C5252428146CB300DC8A3C /* AppDelegate.swift */; };
 		F3C5252728146CB300DC8A3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C5252628146CB300DC8A3C /* SceneDelegate.swift */; };
 		F3C5252928146CB300DC8A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C5252828146CB300DC8A3C /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B74F6CA281480FD008A6885 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F3C5252128146CB300DC8A3C /* PasswordS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C5252428146CB300DC8A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3C5252628146CB300DC8A3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				F3C5252A28146CB300DC8A3C /* Main.storyboard */,
 				F3C5252D28146CB700DC8A3C /* Assets.xcassets */,
 				F3C5252F28146CB700DC8A3C /* LaunchScreen.storyboard */,
+				3B74F6CA281480FD008A6885 /* GoogleService-Info.plist */,
 				F3C5253228146CB700DC8A3C /* Info.plist */,
 			);
 			path = PasswordS;
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B74F6CB281480FD008A6885 /* GoogleService-Info.plist in Resources */,
 				F3C5253128146CB700DC8A3C /* LaunchScreen.storyboard in Resources */,
 				F3C5252E28146CB700DC8A3C /* Assets.xcassets in Resources */,
 				F3C5252C28146CB300DC8A3C /* Main.storyboard in Resources */,

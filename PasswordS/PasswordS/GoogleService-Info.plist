@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>593285801879-hcs0hfncsmsm5jlqmnkos9o0r1i32dr7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.593285801879-hcs0hfncsmsm5jlqmnkos9o0r1i32dr7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDLTodbB2xejkLj6ClElZGIEhGphsApwAY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>593285801879</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.rosehulman.liaoz1.PasswordS</string>
+	<key>PROJECT_ID</key>
+	<string>password-notebook</string>
+	<key>STORAGE_BUCKET</key>
+	<string>password-notebook.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:593285801879:ios:684c54eef2b31e406546d2</string>
+</dict>
+</plist>
