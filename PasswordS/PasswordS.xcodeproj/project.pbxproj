@@ -28,6 +28,7 @@
 		F3C525502814826B00DC8A3C /* FirebaseFunctionsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F3C5254F2814826B00DC8A3C /* FirebaseFunctionsSwift-Beta */; };
 		F3C525522814826B00DC8A3C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F3C525512814826B00DC8A3C /* FirebaseStorage */; };
 		F3C525552814829A00DC8A3C /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = F3C525542814829A00DC8A3C /* SideMenu */; };
+		F3DE38102819E04800286892 /* ContentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DE380F2819E04800286892 /* ContentDocument.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		F3C525382814818C00DC8A3C /* constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
 		F3C5253A281481A400DC8A3C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		F3C5253C281481B400DC8A3C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F3DE380F2819E04800286892 /* ContentDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDocument.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				F3C525382814818C00DC8A3C /* constant.swift */,
 				F3C5253A281481A400DC8A3C /* TableViewController.swift */,
 				F3C5253C281481B400DC8A3C /* DetailViewController.swift */,
+				F3DE380F2819E04800286892 /* ContentDocument.swift */,
 			);
 			path = PasswordS;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3DE38102819E04800286892 /* ContentDocument.swift in Sources */,
 				F3C5252928146CB300DC8A3C /* ViewController.swift in Sources */,
 				F3C5252528146CB300DC8A3C /* AppDelegate.swift in Sources */,
 				F3C5252728146CB300DC8A3C /* SceneDelegate.swift in Sources */,
