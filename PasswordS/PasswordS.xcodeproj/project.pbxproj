@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B74F6CB281480FD008A6885 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B74F6CA281480FD008A6885 /* GoogleService-Info.plist */; };
+		F39B74ED283184FD009CF8C9 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F39B74EC283184FD009CF8C9 /* CryptoSwift */; };
+		F39B74EF28318642009CF8C9 /* SimpleEncrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B74EE28318642009CF8C9 /* SimpleEncrypt.swift */; };
+		F39B74F2283186B9009CF8C9 /* RNCryptor in Frameworks */ = {isa = PBXBuildFile; productRef = F39B74F1283186B9009CF8C9 /* RNCryptor */; };
+		F39B74F428318935009CF8C9 /* LogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B74F328318935009CF8C9 /* LogInController.swift */; };
+		F39B74F628318941009CF8C9 /* Pass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B74F528318941009CF8C9 /* Pass.swift */; };
+		F39B74F82831895B009CF8C9 /* PassFileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B74F72831895B009CF8C9 /* PassFileController.swift */; };
+		F39B74FA2831A9CB009CF8C9 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B74F92831A9CB009CF8C9 /* AuthManager.swift */; };
+		F39B74FC2831B04C009CF8C9 /* UserDocumentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B74FB2831B04C009CF8C9 /* UserDocumentManager.swift */; };
+		F39B74FE2831B218009CF8C9 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B74FD2831B218009CF8C9 /* ProfileController.swift */; };
+		F39B75062832CED4009CF8C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F39B75052832CED4009CF8C9 /* GoogleService-Info.plist */; };
+		F39B75082832D128009CF8C9 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B75072832D128009CF8C9 /* constants.swift */; };
+		F39B750A2832ED94009CF8C9 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B75092832ED94009CF8C9 /* PasswordViewController.swift */; };
+		F39B750C2834208B009CF8C9 /* PassDocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B750B2834208B009CF8C9 /* PassDocumentController.swift */; };
 		F3C5252528146CB300DC8A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C5252428146CB300DC8A3C /* AppDelegate.swift */; };
 		F3C5252728146CB300DC8A3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C5252628146CB300DC8A3C /* SceneDelegate.swift */; };
 		F3C5252928146CB300DC8A3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C5252828146CB300DC8A3C /* ViewController.swift */; };
@@ -33,6 +45,17 @@
 
 /* Begin PBXFileReference section */
 		3B74F6CA281480FD008A6885 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F39B74EE28318642009CF8C9 /* SimpleEncrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEncrypt.swift; sourceTree = "<group>"; };
+		F39B74F328318935009CF8C9 /* LogInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInController.swift; sourceTree = "<group>"; };
+		F39B74F528318941009CF8C9 /* Pass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pass.swift; sourceTree = "<group>"; };
+		F39B74F72831895B009CF8C9 /* PassFileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassFileController.swift; sourceTree = "<group>"; };
+		F39B74F92831A9CB009CF8C9 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		F39B74FB2831B04C009CF8C9 /* UserDocumentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDocumentManager.swift; sourceTree = "<group>"; };
+		F39B74FD2831B218009CF8C9 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		F39B75052832CED4009CF8C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F39B75072832D128009CF8C9 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		F39B75092832ED94009CF8C9 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		F39B750B2834208B009CF8C9 /* PassDocumentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassDocumentController.swift; sourceTree = "<group>"; };
 		F3C5252128146CB300DC8A3C /* PasswordS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C5252428146CB300DC8A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3C5252628146CB300DC8A3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,11 +80,13 @@
 				F3C5254C2814826B00DC8A3C /* FirebaseFunctions in Frameworks */,
 				F3C525522814826B00DC8A3C /* FirebaseStorage in Frameworks */,
 				F3C525402814826B00DC8A3C /* FirebaseAnalytics in Frameworks */,
+				F39B74ED283184FD009CF8C9 /* CryptoSwift in Frameworks */,
 				F3C525462814826B00DC8A3C /* FirebaseDatabaseSwift-Beta in Frameworks */,
 				F3C5254A2814826B00DC8A3C /* FirebaseFirestoreSwift-Beta in Frameworks */,
 				F3C525482814826B00DC8A3C /* FirebaseFirestore in Frameworks */,
 				F3C525422814826B00DC8A3C /* FirebaseAuth in Frameworks */,
 				F3C5254E2814826B00DC8A3C /* FirebaseFunctionsCombine-Community in Frameworks */,
+				F39B74F2283186B9009CF8C9 /* RNCryptor in Frameworks */,
 				F3C525552814829A00DC8A3C /* SideMenu in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,6 +113,7 @@
 		F3C5252328146CB300DC8A3C /* PasswordS */ = {
 			isa = PBXGroup;
 			children = (
+				F39B75052832CED4009CF8C9 /* GoogleService-Info.plist */,
 				F3C5252428146CB300DC8A3C /* AppDelegate.swift */,
 				F3C5252628146CB300DC8A3C /* SceneDelegate.swift */,
 				F3C5252828146CB300DC8A3C /* ViewController.swift */,
@@ -100,6 +126,16 @@
 				F3C5253A281481A400DC8A3C /* TableViewController.swift */,
 				F3C5253C281481B400DC8A3C /* DetailViewController.swift */,
 				F3DE380F2819E04800286892 /* ContentDocument.swift */,
+				F39B74EE28318642009CF8C9 /* SimpleEncrypt.swift */,
+				F39B74F328318935009CF8C9 /* LogInController.swift */,
+				F39B74F528318941009CF8C9 /* Pass.swift */,
+				F39B74F72831895B009CF8C9 /* PassFileController.swift */,
+				F39B74F92831A9CB009CF8C9 /* AuthManager.swift */,
+				F39B74FB2831B04C009CF8C9 /* UserDocumentManager.swift */,
+				F39B74FD2831B218009CF8C9 /* ProfileController.swift */,
+				F39B75072832D128009CF8C9 /* constants.swift */,
+				F39B75092832ED94009CF8C9 /* PasswordViewController.swift */,
+				F39B750B2834208B009CF8C9 /* PassDocumentController.swift */,
 			);
 			path = PasswordS;
 			sourceTree = "<group>";
@@ -132,6 +168,8 @@
 				F3C5254F2814826B00DC8A3C /* FirebaseFunctionsSwift-Beta */,
 				F3C525512814826B00DC8A3C /* FirebaseStorage */,
 				F3C525542814829A00DC8A3C /* SideMenu */,
+				F39B74EC283184FD009CF8C9 /* CryptoSwift */,
+				F39B74F1283186B9009CF8C9 /* RNCryptor */,
 			);
 			productName = PasswordS;
 			productReference = F3C5252128146CB300DC8A3C /* PasswordS.app */;
@@ -164,6 +202,8 @@
 			packageReferences = (
 				F3C5253E2814826B00DC8A3C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				F3C525532814829900DC8A3C /* XCRemoteSwiftPackageReference "SideMenu" */,
+				F39B74EB283184FD009CF8C9 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+				F39B74F0283186B9009CF8C9 /* XCRemoteSwiftPackageReference "RNCryptor" */,
 			);
 			productRefGroup = F3C5252228146CB300DC8A3C /* Products */;
 			projectDirPath = "";
@@ -179,8 +219,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B74F6CB281480FD008A6885 /* GoogleService-Info.plist in Resources */,
 				F3C5253128146CB700DC8A3C /* LaunchScreen.storyboard in Resources */,
+				F39B75062832CED4009CF8C9 /* GoogleService-Info.plist in Resources */,
 				F3C5252E28146CB700DC8A3C /* Assets.xcassets in Resources */,
 				F3C5252C28146CB300DC8A3C /* Main.storyboard in Resources */,
 			);
@@ -194,11 +234,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3DE38102819E04800286892 /* ContentDocument.swift in Sources */,
+				F39B74FA2831A9CB009CF8C9 /* AuthManager.swift in Sources */,
 				F3C5252928146CB300DC8A3C /* ViewController.swift in Sources */,
+				F39B74F82831895B009CF8C9 /* PassFileController.swift in Sources */,
 				F3C5252528146CB300DC8A3C /* AppDelegate.swift in Sources */,
 				F3C5252728146CB300DC8A3C /* SceneDelegate.swift in Sources */,
+				F39B74FC2831B04C009CF8C9 /* UserDocumentManager.swift in Sources */,
+				F39B74FE2831B218009CF8C9 /* ProfileController.swift in Sources */,
+				F39B75082832D128009CF8C9 /* constants.swift in Sources */,
+				F39B750A2832ED94009CF8C9 /* PasswordViewController.swift in Sources */,
+				F39B74F428318935009CF8C9 /* LogInController.swift in Sources */,
 				F3C5253D281481B400DC8A3C /* DetailViewController.swift in Sources */,
+				F39B74EF28318642009CF8C9 /* SimpleEncrypt.swift in Sources */,
 				F3C5253B281481A400DC8A3C /* TableViewController.swift in Sources */,
+				F39B74F628318941009CF8C9 /* Pass.swift in Sources */,
+				F39B750C2834208B009CF8C9 /* PassDocumentController.swift in Sources */,
 				F3C525392814818C00DC8A3C /* constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +416,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -395,7 +445,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -423,6 +473,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		F39B74EB283184FD009CF8C9 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		F39B74F0283186B9009CF8C9 /* XCRemoteSwiftPackageReference "RNCryptor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RNCryptor/RNCryptor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		F3C5253E2814826B00DC8A3C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -442,6 +508,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F39B74EC283184FD009CF8C9 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F39B74EB283184FD009CF8C9 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+		F39B74F1283186B9009CF8C9 /* RNCryptor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F39B74F0283186B9009CF8C9 /* XCRemoteSwiftPackageReference "RNCryptor" */;
+			productName = RNCryptor;
+		};
 		F3C5253F2814826B00DC8A3C /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F3C5253E2814826B00DC8A3C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

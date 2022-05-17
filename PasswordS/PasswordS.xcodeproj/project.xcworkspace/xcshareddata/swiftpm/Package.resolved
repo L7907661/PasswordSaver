@@ -19,6 +19,15 @@
       }
     },
     {
+      "identity" : "cryptoswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/CryptoSwift.git",
+      "state" : {
+        "revision" : "039f56c5d7960f277087a0be51f5eb04ed0ec073",
+        "version" : "1.5.1"
+      }
+    },
+    {
       "identity" : "firebase-ios-sdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/firebase-ios-sdk.git",
@@ -97,6 +106,15 @@
       "state" : {
         "revision" : "46c1e6b5ac09d8f82c991061c659f67e573d425d",
         "version" : "2.1.0"
+      }
+    },
+    {
+      "identity" : "rncryptor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RNCryptor/RNCryptor.git",
+      "state" : {
+        "revision" : "5e3bbf44f08bf90049537cb8902d8f4fa911a79a",
+        "version" : "5.1.0"
       }
     },
     {
