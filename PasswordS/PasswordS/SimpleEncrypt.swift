@@ -8,6 +8,7 @@
 import Foundation
 import CryptoSwift
 import RNCryptor
+
 //from https://stackoverflow.com/questions/46479514/swift-encrypt-and-decrypt-a-string-using-a-users-password
 class SimpleEncrypt{
     var p: String?
